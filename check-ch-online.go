@@ -10,6 +10,10 @@ import (
 	"github.com/PuerkitoBio/goquery"
 )
 
+// more reliable
+// api check if user was online in the last 5 minutes
+// https://api.chess.com/pub/player/enjoy_your_life/is-online
+
 // CheckUserOnline - Request the HTML page aka  user profile
 // and if online load the site in the browser
 func CheckUserOnline(user string) int {
